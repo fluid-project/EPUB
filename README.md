@@ -11,10 +11,9 @@ Instructions for Getting Video
 
 Videos Original Source
 ----------------------
-http://www.ck12.org/physics/Types-of-Forces/lesson/Types-of-Forces/
-http://www.ck12.org/physics/Velocity/lesson/Velocity/
+- http://www.ck12.org/physics/Types-of-Forces/lesson/Types-of-Forces/
+- http://www.ck12.org/physics/Velocity/lesson/Velocity/
 
 Video License
 -------------
-Videos ©CK-12 Foundation
-CK-12 Foundation is licensed under Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)
+Videos ©CK-12 Foundation is licensed under Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)
