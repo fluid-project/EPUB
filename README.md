@@ -7,7 +7,7 @@ Installation Steps
 2. Install some EPUB readers to test with.
 3. Install dev version of Pandoc
 
-1 Instructions for Getting EPUB Exemplar Content
+1 EPUB Exemplar Content
 ------------------------------------------------
 
 1. Use git to get a copy of the EPUB repository: https://github.com/jhung/EPUB (TODO: Replace repository URL)
