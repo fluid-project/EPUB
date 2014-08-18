@@ -1,8 +1,8 @@
 Inclusive EPUB 3 Exemplar
 =========================
 
-Instructions for Getting Videos
--------------------------------
+Instructions for getting video
+------------------------------
 
 1. Use git to clone the EPUB repository.
 2. Save the videos from this URL (https://drive.google.com/folderview?id=0BxzmBMhbP3nGTXJENVZOcl9pS0E&usp=sharing) into the ./videos/ directory.
