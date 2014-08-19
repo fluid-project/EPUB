@@ -32,11 +32,14 @@ The latest dev version of Pandoc has a number of fixes with MathML markup and Vi
 
 1. Get the Pandoc source code from github: https://github.com/jgm/pandoc
 2. Follow the guide ["Installing the development version of pandoc"](https://github.com/jgm/pandoc/wiki/Installing-the-development-version-of-pandoc)
+3. During the installation procedure you may be required to update cabal.
+        > cabal update
+        > cabal install cabal-install
 3. Add Pandoc to your $PATH. Example:
-        export PATH=$PATH:~/Library/Haskell/bin/pandoc
+        > export PATH=$PATH:~/Library/Haskell/bin/pandoc
 4. Verify Pandoc is working by running pandoc to generate a test EPUB.
-        cd EPUB-Exemplar/tests/
-        pandoc video-test.html -o video-test.epub -w epub3 -f html -R
+        > cd EPUB-Exemplar/tests/
+        > pandoc video-test.html -o video-test.epub -w epub3 -f html -R
 5. Open video-test.epub in an EPUB reader to verify the content converted properly
 
 Using Pandoc to Convert HTML 5 to EPUB
@@ -44,11 +47,16 @@ Using Pandoc to Convert HTML 5 to EPUB
 
 In most cases, the following command is sufficient:
 
-        pandoc 01-velocity.html -o 01-velocity.epub -w epub3 -f html -R
+        > pandoc 01-velocity.html -o 01-velocity.epub -w epub3 -f html -R
 
 However, in some cases of large HTML files, the following command is required:
 
-        pandoc +RTS -K100m -RTS phet8.html -o script-test.epub -w epub3 -f html -R
+        > pandoc +RTS -K100m -RTS test.html -o test.epub -w epub3 -f html -R
+
+To combine multiple input HTML files into a single EPUB document:
+
+      > pandoc 01.html 02.html 03.html -o 01-velocity.epub -w epub3 -f html -R
+
 
 Helpful Resources
 -----------------
