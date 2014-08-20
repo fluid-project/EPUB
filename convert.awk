@@ -1,3 +1,8 @@
+# This program will convert a label file exported by Audacity into
+# EPUB 3 compliant <par> SMIL elements suitable for a media overlay
+# This script assumes the label file is in the form
+#    starttime  endtime ID
+
 # To use this program, use awk on the command line:
 # > awk -f convert.awk input.txt >output.smil
 # and then add the smil boilerplate to the document,
