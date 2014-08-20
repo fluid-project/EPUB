@@ -2,7 +2,7 @@
 
 ## Directory Structure
 
-This project is structured according to this scheme:
+This project is organized according to books and their resources:
 
         ./book-title
             - html
@@ -13,6 +13,8 @@ This project is structured according to this scheme:
             - ...
 
 Each book is a root directory labelled by its title. Within each book directory are sub-directories containing all the resources required to create the EPUB 3 container.
+
+Additional books will be siblings at the root level.
 
 ## Installation Steps
 1. Get EPUB exemplar content.
