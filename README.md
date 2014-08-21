@@ -8,13 +8,16 @@ This project is organized according to books and their resources:
             - html
             - images
             - videos
+            - audio
               ...
         ./book-title-2
             - ...
 
 Each book is a root directory labelled by its title. Within each book directory are sub-directories containing all the resources required to create the EPUB 3 container.
 
-Additional books will be siblings at the root level.
+### Notes
+* Some resources (i.e. videos and audio) may contain further instructions, refer to these directories for additional instructions.
+* Additional books will be siblings at the root level.
 
 ## Installation Steps
 1. Get EPUB exemplar content.
@@ -55,18 +58,19 @@ The latest dev version of Pandoc has a number of fixes with MathML markup and Vi
 ## Using Pandoc to Convert HTML 5 to EPUB
 
 In most cases, the following command is sufficient:
+
         > cd html
         > pandoc *.html -o ../output.epub -w epub3 -f html -R
 
 Note: Pandoc is executed from within the HTML directory, otherwise pandoc will report errors when attempting to find images and videos.
 
 You can also create an EPUB from a list of input files.
+
         > pandoc 01.html 02.html -o ../output.epub -w epub3 -f html -R
 
 However, in some cases of large HTML files, the following command is required:
 
         > pandoc +RTS -K100m -RTS *.html -o ../output.epub -w epub3 -f html -R
-
 
 ## Helpful Resources
 
