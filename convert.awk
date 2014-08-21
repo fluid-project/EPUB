@@ -4,16 +4,24 @@
 #    starttime  endtime ID
 
 # To use this program, use awk on the command line:
-#   > awk -f convert.awk input.txt > output.smil
-# and then add the smil boilerplate to the document,
+#   > awk -f convert.awk -v htmlFile=<path to input html file> -v audioFile=<path to audio file> <input text file> > <output filename>
+#
+# NOTE: The paths (htmlFile and audioFile)  should be the string that you want it to appear
+# in the output SMIL file, _not_ the actual relative or absolute path to the actual files.
+# On the other hand, the input text file and the output file name should be actual valid paths.
+
+# For example:
+#   > awk -f convert.awk -v htmlFile=01-velocity.html -v audioFile=audio/01-velocity.mp3 01-velocity-timecodes.txt > 01-velocity.smil
+
+# Edit the output to add the smil boilerplate to the document,
 # plus any additional <seq> elements, etc. as desired.
 
 /[a-zA-Z]/ \
 {print \
 "<par id=\"ch1o" NR "\">\
-    <text src=\"01-velocity.html#" $3 "\"/>"}
+    <text src=\"" htmlFile "#" $3 "\"/>"}
 
 /[0-9]*:*[0-9]*:*[0-9]*\.[0-9]*/ \
 {print \
-"    <audio src=\"audio/01-velocity.mp4\" clipBegin=\"" $1 "\" clipEnd=\"" $2 "\"/>\
+"    <audio src=\"" audioFile "\" clipBegin=\"" $1 "\" clipEnd=\"" $2 "\"/>\
 </par>"}
