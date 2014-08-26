@@ -6,6 +6,10 @@
     <dc:date id="epub-date">2014-08-26T15:13:29Z</dc:date>
     <dc:language>en-CA</dc:language>
     <meta property="dcterms:modified">2014-08-26T15:13:32Z</meta>
+
+
+    <meta property="media:duration">0:00:59.000</meta>
+    <meta property="media:duration" refines="#ch001_overlay">0:00:59.000</meta>
   </metadata>
   <manifest>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
@@ -16,7 +20,7 @@
 <!--
     <item id="title_page_xhtml" href="title_page.xhtml" media-type="application/xhtml+xml" />
 -->
-    <item id="ch001_xhtml" href="html/01-velocity.html" media-type="application/xhtml+xml" properties="mathml" />
+    <item id="ch001_xhtml" href="html/01-velocity.html" media-type="application/xhtml+xml" properties="mathml" media-overlay="ch001_overlay" />
     <item id="ch002_xhtml" href="html/02-types_of_forces.html" media-type="application/xhtml+xml" properties="mathml" />
     <item id="ch003_xhtml" href="html/03-forces-simulation.html" media-type="application/xhtml+xml" properties="scripted" />
     <item id="file0_mp4" href="videos/Free_Body_Diagrams.mp4" media-type="video/mp4" />
@@ -26,6 +30,8 @@
     <item id="file4_jpg" href="images/elevator.jpg" media-type="image/jpeg" />
     <item id="file5_mp4" href="videos/Relative_Velocity.mp4" media-type="video/mp4" />
     <item id="file6_webm" href="videos/Relative_Velocity.webm" media-type="video/webm" />
+    <item id="ch001_overlay" href="audio/01-velocity.smil" media-type="application/smil+xml"/>
+    <item id="ch001_overlay_mp3" href="audio/01-velocity.mp3" media-type="audio/mpeg" />
 <!--
     <item id="file7" href="media/file7" media-type="application/octet-stream" />
 -->

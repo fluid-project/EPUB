@@ -1,0 +1,49 @@
+<smil 
+     xmlns="http://www.w3.org/ns/SMIL"
+     xmlns:epub="http://www.idpf.org/2007/ops"
+     version="3.0">
+    <body>
+
+        <par id="ch1o1">
+            <text src="../html/01-velocity.html#c01p0002"/>
+            <audio src="01-velocity.mp3" clipBegin="0.185760" clipEnd="9.102222"/>
+        </par>
+        <par id="ch1o2">
+            <text src="../html/01-velocity.html#c01h02"/>
+            <audio src="01-velocity.mp3" clipBegin="9.380862" clipEnd="11.702857"/>
+        </par>
+        <par id="ch1o3">
+            <text src="../html/01-velocity.html#c01list001item001"/>
+            <audio src="01-velocity.mp3" clipBegin="11.702857" clipEnd="15.185850"/>
+        </par>
+        <par id="ch1o4">
+            <text src="../html/01-velocity.html#c01-equation-1"/>
+            <audio src="01-velocity.mp3" clipBegin="15.185850" clipEnd="19.133243"/>
+        </par>
+        <par id="ch1o5">
+            <text src="../html/01-velocity.html#c01list001item002"/>
+            <audio src="01-velocity.mp3" clipBegin="20.201361" clipEnd="23.312834"/>
+        </par>
+        <par id="ch1o6">
+            <text src="../html/01-velocity.html#c01-equation-2"/>
+            <audio src="01-velocity.mp3" clipBegin="23.312834" clipEnd="27.260227"/>
+        </par>
+        <par id="ch1o7">
+            <text src="../html/01-velocity.html#c01list001item003"/>
+            <audio src="01-velocity.mp3" clipBegin="28.049705" clipEnd="31.300499"/>
+        </par>
+        <par id="ch1o8">
+            <text src="../html/01-velocity.html#c01list001item004"/>
+            <audio src="01-velocity.mp3" clipBegin="32.368617" clipEnd="35.572971"/>
+        </par>
+        <par id="ch1o9">
+            <text src="../html/01-velocity.html#c01h03"/>
+            <audio src="01-velocity.mp3" clipBegin="36.130249" clipEnd="37.151927"/>
+        </par>
+        <par id="ch1o10">
+            <text src="../html/01-velocity.html#c01p0003"/>
+            <audio src="01-velocity.mp3" clipBegin="37.709206" clipEnd="55.124172"/>
+        </par>
+
+    </body>
+</smil>
