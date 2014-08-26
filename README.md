@@ -22,7 +22,7 @@ Each book is a root directory labelled by its title. Within each book directory 
 ## Installation Steps
 1. Get EPUB exemplar content.
 2. Install some EPUB readers to test with.
-3. Install dev version of Pandoc
+3. Build EPUB using zip
 
 ### 1 EPUB Exemplar Content
 
@@ -39,38 +39,14 @@ The following EPUB readers are used for testing:
 - [Lucifox](http://lucidor.org/lucifox/)
 - [Calibre](http://calibre-ebook.com/)
 
-### 3 Installing Pandoc
+### 3 Building EPUB
 
-The latest dev version of Pandoc has a number of fixes with MathML markup and Video elements.
+To build the EPUB archive:
 
-1. Get the Pandoc source code from github: https://github.com/jgm/pandoc
-2. Follow the guide ["Installing the development version of pandoc"](https://github.com/jgm/pandoc/wiki/Installing-the-development-version-of-pandoc)
-3. During the installation procedure you may be required to update cabal.
-        > cabal update
-        > cabal install cabal-install
-3. Add Pandoc to your $PATH. Example:
-        > export PATH=$PATH:~/Library/Haskell/bin/pandoc
-4. Verify Pandoc is working by running pandoc to generate a test EPUB.
-        > cd physics-forces_and_motion/html
-        > pandoc 01-velocity.html -o ../01-velocity.epub -w epub3 -f html -R
-5. Open 01-velocity.epub in an EPUB reader to verify the content converted properly
+    > cd physics-forces_and_motion/html
+    > zip -X9Dr physics.epub mimetype
+    > zip -X9Dr physics.epub META-INF Content
 
-## Using Pandoc to Convert HTML 5 to EPUB
-
-In most cases, the following command is sufficient:
-
-        > cd html
-        > pandoc *.html -o ../output.epub -w epub3 -f html -R
-
-Note: Pandoc is executed from within the HTML directory, otherwise pandoc will report errors when attempting to find images and videos.
-
-You can also create an EPUB from a list of input files.
-
-        > pandoc 01.html 02.html -o ../output.epub -w epub3 -f html -R
-
-However, in some cases of large HTML files, the following command is required:
-
-        > pandoc +RTS -K100m -RTS *.html -o ../output.epub -w epub3 -f html -R
 
 ## Helpful Resources
 
