@@ -54,6 +54,5 @@ To build the EPUB archive:
 ## Helpful Resources
 
 - Todo: A link to Inclusive EPUB 3 ILDH Guide
-- [Pandoc documentation](http://johnmacfarlane.net/pandoc/README.html)
 - [EPUB Samples Project](https://code.google.com/p/epub-samples/)
 - [IDPF EPUB Validator](http://validator.idpf.org/)
