@@ -5,13 +5,16 @@
 This project is organized according to books and their resources:
 
         ./book-title
-            - html
-            - images
-            - videos
-            - audio
-              ...
+            mimetype
+            /META-INF
+            /Content
+                /html
+                /images
+                /videos
+                /audio
+                ...
         ./book-title-2
-            - ...
+            ...
 
 Each book is a root directory labelled by its title. Within each book directory are sub-directories containing all the resources required to create the EPUB 3 container.
 
