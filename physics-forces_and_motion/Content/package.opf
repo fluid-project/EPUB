@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="epub-id-1">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="epub-id-1">urn:uuid:5058c019-f236-42f2-af5f-4ae39de83c61</dc:identifier>
+    <dc:title id="epub-title-1">Forces and Motion: Basics 1.0.0</dc:title>
+    <dc:date id="epub-date">2014-08-26T15:13:29Z</dc:date>
+    <dc:language>en-CA</dc:language>
+    <meta property="dcterms:modified">2014-08-26T15:13:32Z</meta>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+<!--
+    <item id="style" href="stylesheet.css" media-type="text/css" />
+-->
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav" />
+<!--
+    <item id="title_page_xhtml" href="title_page.xhtml" media-type="application/xhtml+xml" />
+-->
+    <item id="ch001_xhtml" href="html/01-velocity.html" media-type="application/xhtml+xml" properties="mathml" />
+    <item id="ch002_xhtml" href="html/02-types_of_forces.html" media-type="application/xhtml+xml" properties="mathml" />
+    <item id="ch003_xhtml" href="html/03-forces-simulation.html" media-type="application/xhtml+xml" properties="scripted" />
+    <item id="file0_mp4" href="videos/Free_Body_Diagrams.mp4" media-type="video/mp4" />
+    <item id="file1_webm" href="videos/Free_Body_Diagrams.webm" media-type="video/webm" />
+    <item id="file2_png" href="images/normal-force.png" media-type="image/png" />
+    <item id="file3_png" href="images/tension.png" media-type="image/png" />
+    <item id="file4_jpg" href="images/elevator.jpg" media-type="image/jpeg" />
+    <item id="file5_mp4" href="videos/Relative_Velocity.mp4" media-type="video/mp4" />
+    <item id="file6_webm" href="videos/Relative_Velocity.webm" media-type="video/webm" />
+<!--
+    <item id="file7" href="media/file7" media-type="application/octet-stream" />
+-->
+  </manifest>
+  <spine toc="ncx" page-progression-direction="default">
+<!--
+    <itemref idref="title_page_xhtml" linear="yes" />
+-->
+    <itemref idref="nav" linear="no" />
+    <itemref idref="ch001_xhtml" />
+    <itemref idref="ch002_xhtml" />
+    <itemref idref="ch003_xhtml" />
+  </spine>
+  <guide>
+    <reference type="toc" title="Forces and Motion: Basics 1.0.0" href="nav.xhtml" />
+  </guide>
+</package>
