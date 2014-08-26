@@ -46,9 +46,15 @@ The following EPUB readers are used for testing:
 
 To build the EPUB archive:
 
-    > cd physics-forces_and_motion/html
-    > zip -X9Dr physics.epub mimetype
-    > zip -X9Dr physics.epub META-INF Content
+In the `physics-forces_and_motion` directory, create a ZIP archive containing the contents of the folder:
+the `mimetype` file, the `META-INF` folder and the `Content` folder.
+NOTE: You must ensure that the `mimetype` file is the first item in the archive.
+
+For example, to use the `zip` command on the command line to create an archive called `physics.epub`:
+
+    > cd physics-forces_and_motion
+    > zip -X physics.epub mimetype
+    > zip -XDr physics.epub META-INF Content
 
 
 ## Helpful Resources
@@ -56,3 +62,4 @@ To build the EPUB archive:
 - Todo: A link to Inclusive EPUB 3 ILDH Guide
 - [EPUB Samples Project](https://code.google.com/p/epub-samples/)
 - [IDPF EPUB Validator](http://validator.idpf.org/)
+- [IDPF command-line EPUB validator](https://github.com/IDPF/epubcheck)
