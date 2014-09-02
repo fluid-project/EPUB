@@ -1,94 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,minimal-ui"/>
-  <meta name="apple-mobile-web-app-capable" content="yes"/>
-  <meta name="phet-sim-level" content="production"/>
-  <title>Forces and Motion: Basics 1.0.0</title>
-<!--
-forces-and-motion-basics
-Copyright 2002-2013, University of Colorado Boulder
-PhET Interactive Simulations
-Licensed under GPLv3
-http://phet.colorado.edu/en/about/licensing
 
-Libraries:
-=
-FileSaver.js by Eli Grey (http://eligrey.com)
-https://github.com/eligrey/FileSaver.js/
-Released under the X11/MIT license
-> Selected license: MIT
-=
-has.js Copyright (c) 2010-2013 John David Dalton, Brad Dougherty, Bryan Forbes, Ryan Grove, Andrée Hansson, Peter Higgins, Paul Irish, Weston Ruter, Rick Waldron, Juriy Zaytsev
-Tentatively, has.js is available under the Academic Free License, New BSD License, and the MIT License.
-https://github.com/phiggins42/has.js/
-> Selected license: MIT
-=
-jQuery JavaScript Library v2.1.0 (includes Sizzle.js) Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors
-http://jquery.com/
-http://sizzlejs.com/
-Released under the MIT license
-http://jquery.org/license
-=
-Lo-Dash 2.0.0 (Custom Build) <http://lodash.com/>
-Build: `lodash modern -o ./dist/lodash.js`
-Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
-Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
-Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
-Available under MIT license <http://lodash.com/license>
-=
-seedrandom.js version 2.2.
-Copyright 2013 David Bau, all rights reserved.
-LICENSE (BSD), https://github.com/davidbau/seedrandom/blob/master/seedrandom.js
-=
-tween.js - http://github.com/sole/tween.js
-The MIT License
-Copyright (c) 2010-2012 Tween.js authors.
-Easing equations Copyright (c) 2001 Robert Penner http://robertpenner.com/easing/ under BSD license, see http://robertpenner.com/easing_terms_of_use.html
-=
-almond 0.2.9 Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.
-Available via the MIT or new BSD license.
-see: http://github.com/jrburke/almond for details
-> Selected license: MIT
-=
-base64binary Copyright (c) 2011, Daniel Guerrero
-Available via BSD license.
-see: https://github.com/danguer/blog-examples/blob/master/js/base64-binary.js for details
-=
-Font Awesome by Dave Gandy - http://fontawesome.io
-Font Awesome licensed under SIL OFL 1.1
-http://scripts.sil.org/OFL
-=
-pegjs
-Copyright (c) 2010-2012 David Majda
-MIT License
-http://pegjs.majda.cz/
-=
-RequireJS 2.1.8 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.
-Available via the MIT or new BSD license.
-see: https://github.com/requirejs/i18n for details
-> Selected license: MIT
-=
-RequireJS text 2.0.5 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.
-Available via the MIT or new BSD license.
-http://github.com/requirejs/text for details
-> Selected license: MIT
-=
--->
-</head>
-<body style="background-color:black;">
-<img id="splash" style="position: absolute;top: 50%;left: 50%;margin-top: -210px;margin-left: -252px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8yIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB4PSIwcHgiIHk9IjBweCIKCSB3aWR0aD0iNTA0cHgiIGhlaWdodD0iMzYwcHgiIHZpZXdCb3g9IjAgMCA1MDQgMzYwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MDQgMzYwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48L3N2Zz4K"/>
-<script type="text/javascript">window.phetStrings={"FORCES_AND_MOTION_BASICS/go":"Go!","FORCES_AND_MOTION_BASICS/pause":"Pause","FORCES_AND_MOTION_BASICS/return":"Return","FORCES_AND_MOTION_BASICS/blueWins":"Blue Wins!","FORCES_AND_MOTION_BASICS/redWins":"Red Wins!","FORCES_AND_MOTION_BASICS/sumOfForces":"Sum of Forces","FORCES_AND_MOTION_BASICS/values":"Values","FORCES_AND_MOTION_BASICS/forceReadout.pattern":"{0}N","FORCES_AND_MOTION_BASICS/leftForce":"Left Force","FORCES_AND_MOTION_BASICS/rightForce":"Right Force","FORCES_AND_MOTION_BASICS/sumOfForcesEqualsZero":"Sum of Forces = 0","FORCES_AND_MOTION_BASICS/massDisplay.pattern":"{0} kg","FORCES_AND_MOTION_BASICS/appliedForce":"Applied Force","FORCES_AND_MOTION_BASICS/newtons":"Newtons","FORCES_AND_MOTION_BASICS/speed":"Speed","FORCES_AND_MOTION_BASICS/frictionForce":"Friction Force","FORCES_AND_MOTION_BASICS/acceleration":"Acceleration","FORCES_AND_MOTION_BASICS/force":"Force","FORCES_AND_MOTION_BASICS/forces":"Forces","FORCES_AND_MOTION_BASICS/masses":"Masses","FORCES_AND_MOTION_BASICS/friction":"Friction","FORCES_AND_MOTION_BASICS/lots":"Lots","FORCES_AND_MOTION_BASICS/none":"None","JOIST/credits.developmentTeam":"Development Team","JOIST/credits.leadDesign":"Lead Design: {0}","JOIST/credits.softwareDevelopment":"Software Development: {0}","JOIST/credits.designTeam":"Design Team: {0}","JOIST/credits.interviews":"Interviews: {0}","JOIST/credits.graphicArts":"Graphic Arts: {0}","JOIST/credits.translation":"Translation","JOIST/credits.thanks":"Thanks","JOIST/credits.qualityAssurance":"Quality Assurance: {0}","JOIST/showPointers":"Show Pointers","JOIST/done":"Done","JOIST/title.settings":"Settings","JOIST/menuItem.about":"About...","JOIST/menuItem.mailInputEventsLog":"Mail Input Events Log","JOIST/menuItem.outputInputEventsLog":"Output Input Events Log","JOIST/menuItem.phetWebsite":"PhET website...","JOIST/menuItem.reportAProblem":"Report a Problem...","JOIST/menuItem.settings":"Settings...","JOIST/menuItem.submitInputEventsLog":"Submit Input Events Log","FORCES_AND_MOTION_BASICS/forces-and-motion-basics.name":"Forces and Motion: Basics","FORCES_AND_MOTION_BASICS/tugOfWar":"Tug of War","FORCES_AND_MOTION_BASICS/motion":"Motion"}</script>
-<script type="text/javascript">window.phetLocale='en';window.phetVersion='forces-and-motion-basics 1.0.0';</script>
-<script type="text/javascript">
-  window.phetStrings.get = function( key ) {
-
-    //Support translation by query parameter to enable translation in the browser
-    return window.phetcommon.getQueryParameter( key ) || window.phetStrings[key];
-  };
-</script>
-<script type="text/javascript" src="../js/sim1.js"></script>
-<script type="text/javascript" src="../js/sim2.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8" />
+	  <meta name="phet-sim-level" content="production"/>
+        <title>Chapter 3 - Forces Simulation</title>
+    </head>
+    
+    <body>
+        <h1 id="c03h01">Chapter 3 - Forces Simulation</h1>
+        <p>Forces can be added and subtracted to give a resulting net force. To understand the basics of calculating net force, let us consider a game of tug-of-war.</p>
+        <p>In tug-of-war, players form two teams on opposite ends of a rope and pull against each other until one team is pulled over the centre line. Or put it another way, each team exerts force in opposite directions, and the team with the greatest combined force will win because the net force is going in their direction.</p>
+        <h2 id="c03h02">Example:</h2>
+        <p>
+            Team 1 consists of two people capable pulling to the left 9 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> and 15 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> respectively. Team 2 has three people who can pull 10 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> 11 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> and 6 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> to the left.
+            To figure out which team will win, calculate the net force by adding up the forces of each team.
+        </p>
+        <p>
+            For team 1, the total force is 9 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> + 15 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> = 24 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr>.
+            For team 2, the total force is 10 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> + 11 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> + 6 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> = 27 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr>.
+        </p>
+        <p> 
+            Net force is 24 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> subtract 27 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> (we are subtracting 27 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> because team 2 is pulling in the <em>opposite</em> direction of team 1).
+            Therefore the total force is -3 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr>, which means Team 2 wins.
+        </p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mo>(</mo>
+            <mn>9</mn>
+            <mo>+</mo>
+            <mn>15</mn>
+            <mo>)</mo>
+            <mo>-</mo>
+            <mo>(</mo>
+            <mn>10</mn>
+            <mo>+</mo>
+            <mn>11</mn>
+            <mo>+</mo>
+            <mn>6</mn>
+            <mo>)</mo>
+            <mo>=</mo>
+            <mn>-3</mn>
+            <mn mathvariant='normal' class='epub-mathML-Unit'>N</mn>
+        </math>
+        
+        <h2 id="c03h03">Tug-of-War Interactive Game</h2>
+        <p>
+            The following is an interactive simulation of a tug-of-war game with the blue team on the left side, and the red team on the right. Each team can consist of 4 members, and each member pulls with different force. The team with the greatest combined force will win the round.
+        </p>
+        
+    </body>
 </html>

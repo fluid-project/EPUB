@@ -143,6 +143,24 @@
         <text>Chapter 3 - Simulation</text>
       </navLabel>
       <content src="html/03-forces-simulation.html" />
+        <navPoint id="navPoint-22" playOrder="22">
+          <navLabel>
+            <text>Example</text>
+          </navLabel>
+          <content src="html/03-forces-simulation.html#c03h02" />
+        </navPoint>
+        <navPoint id="navPoint-23" playOrder="23">
+          <navLabel>
+            <text>Tug-of-War Interactive Game</text>
+          </navLabel>
+          <content src="html/03-forces-simulation.html#c03h03" />
+        </navPoint>
+        <navPoint id="navPoint-24" playOrder="24">
+          <navLabel>
+            <text>Tug-of-War Interactive Game</text>
+          </navLabel>
+          <content src="html/03-forces-simulation-2.html" />
+        </navPoint>
     </navPoint>
   </navMap>
 </ncx>
