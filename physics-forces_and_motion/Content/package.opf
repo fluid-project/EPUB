@@ -23,6 +23,8 @@
     <item id="ch001_xhtml" href="html/01-velocity.html" media-type="application/xhtml+xml" properties="mathml" media-overlay="ch001_overlay" />
     <item id="ch002_xhtml" href="html/02-types_of_forces.html" media-type="application/xhtml+xml" properties="mathml" />
     <item id="ch003_xhtml" href="html/03-forces-simulation.html" media-type="application/xhtml+xml" properties="scripted" />
+    <item id="sim1_js" href="js/sim1.js" media-type="text/javascript" />
+    <item id="sim2_js" href="js/sim2.js" media-type="text/javascript" />
     <item id="file0_mp4" href="videos/Free_Body_Diagrams.mp4" media-type="video/mp4" />
     <item id="file1_webm" href="videos/Free_Body_Diagrams.webm" media-type="video/webm" />
     <item id="file2_png" href="images/normal-force.png" media-type="image/png" />
