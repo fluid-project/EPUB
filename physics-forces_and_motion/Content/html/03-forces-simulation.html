@@ -11,43 +11,101 @@
     <body>
         <h1 id="c03h01">Chapter 3 - Forces Simulation</h1>
         <p>Forces can be added and subtracted to give a resulting net force. To understand the basics of calculating net force, let us consider a game of tug-of-war.</p>
-        <p>In tug-of-war, players form two teams on opposite ends of a rope and pull against each other until one team is pulled over the centre line. Or put it another way, each team exerts force in opposite directions, and the team with the greatest combined force will win because the net force is going in their direction.</p>
+        <p>Players, who we call "Pullers", form two teams on opposite ends of a rope and pull against each other until one team is pulled over the centre line. When the match starts, each team exerts force in opposite directions, and the team with the greatest combined force will win because the net force is going in their direction.</p>
         <h2 id="c03h02">Example:</h2>
         <p>
-            Team 1 consists of two people capable pulling to the left 9 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> and 15 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> respectively. Team 2 has three people who can pull 10 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> 11 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> and 6 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> to the left.
-            To figure out which team will win, calculate the net force by adding up the forces of each team.
+            Team 1 consists of two pullers capable pulling 9 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> and 15 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> to the left. Team 2 has three pullers who can pull 10 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr>, 11 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr>, and 6 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> to the right.
         </p>
         <p>
+            To figure out which team will win, calculate the net force by adding up the forces of each team.
+        </p>
+        
+        <span role="math" aria-label="Open bracket 9 plus 15 close bracket. Minus open bracket 10 plus 11 plus 6, close bracket." aria-describedby="c03h02">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mo>(</mo>
+                <mn>9</mn>
+                <mo>+</mo>
+                <mn>15</mn>
+                <mo>)</mo>
+                <mo>-</mo>
+                <mo>(</mo>
+                <mn>10</mn>
+                <mo>+</mo>
+                <mn>11</mn>
+                <mo>+</mo>
+                <mn>6</mn>
+                <mo>)</mo>
+            </math>
+        </span>
+        
+        <span role="math" aria-label="Equals open bracket 24 close bracket. Minus open bracket 27 close bracket." aria-describedby="c03h02">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mo>=</mo>
+                <mo>(</mo>
+                <mn>24</mn>
+                <mo>)</mo>
+                <mo>-</mo>
+                <mo>(</mo>
+                <mn>27</mn>
+                <mo>)</mo>
+            </math>
+        </span>
+        
+        <span role="math" aria-label="Equals negative 3 newtons." aria-describedby="c03h02">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mo>=</mo>
+                <mn>-3</mn>
+                <mn mathvariant='normal' class='epub-mathML-Unit'>N</mn>
+            </math>
+        </span>
+        
+        <p>
             For team 1, the total force is 9 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> + 15 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> = 24 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr>.
+        </p>
+        <p>
             For team 2, the total force is 10 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> + 11 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> + 6 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> = 27 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr>.
         </p>
+        
+        
+        
         <p> 
-            Net force is 24 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> subtract 27 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> (we are subtracting 27 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> because team 2 is pulling in the <em>opposite</em> direction of team 1).
+            Net force is 24 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> minus 27 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> (we are subtracting 27 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr> because team 2 is pulling in the <em>opposite</em> direction of team 1).
             Therefore the total force is -3 <abbr role="text" title="Newtons" aria-label="Newtons">N</abbr>, which means Team 2 wins.
         </p>
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <mo>(</mo>
-            <mn>9</mn>
-            <mo>+</mo>
-            <mn>15</mn>
-            <mo>)</mo>
-            <mo>-</mo>
-            <mo>(</mo>
-            <mn>10</mn>
-            <mo>+</mo>
-            <mn>11</mn>
-            <mo>+</mo>
-            <mn>6</mn>
-            <mo>)</mo>
-            <mo>=</mo>
-            <mn>-3</mn>
-            <mn mathvariant='normal' class='epub-mathML-Unit'>N</mn>
-        </math>
         
         <h2 id="c03h03">Tug-of-War Interactive Game</h2>
         <p>
-            The following is an interactive simulation of a tug-of-war game with the blue team on the left side, and the red team on the right. Each team can consist of 4 members, and each member pulls with different force. The team with the greatest combined force will win the round.
+            The following is an interactive simulation of a tug-of-war game with the blue team on the left side, and the red team on the right. Each team can consist of 4 pullers, and each member pulls with different force. The team with the greatest combined force will win the round.
         </p>
+        <h3>Instructions</h3>
+        
+        The tug-of-war game starts by choosing from any of the available pullers and place them into their respective teams. Each team can choose any combination of large, medium, and small pullers according to their colour. Once the teams are finalized, select the "Go" button to start the match.
+        
+        <ol>
+            <li>
+                Assemble the Blue team by choosing from any of the four available pullers: large, medium, or one of two small pullers.
+                <ul>
+                    <li>
+                        Place pullers by dragging and dropping the pullers onto the rope. 
+                    </li>
+                    <li>
+                        If using a keyboard or a switch device, move focus (by selecting Tab key if using a keyboard) until a blue focus outline appears around a puller and activate (by selecting Space or Enter keys on a keyboard) to place them.  
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Next, assemble the Red team by choosing from any of the four available pullers. Like the previous step, drag and drop, or focus and activate pullers to place them onto the rope.
+            </li>
+            <li>
+                Once both teams are assembled, select the "Go" button to start the match! If using a keyboard or switch device, you may need to move focus a few times until focus appears on the "Go" button. 
+            </li>
+            <li>
+                Watch the two teams pull their way to a victory or a draw.
+            </li>
+            <li>
+                Select the "Return" button to reset the match.
+            </li>
+        </ol>
         
     </body>
 </html>
