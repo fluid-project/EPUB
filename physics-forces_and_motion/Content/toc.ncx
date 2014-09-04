@@ -140,7 +140,7 @@
     </navPoint>
     <navPoint id="navPoint-21" playOrder="21">
       <navLabel>
-        <text>Chapter 3 - Simulation</text>
+        <text>Chapter 3 - Adding Forces</text>
       </navLabel>
       <content src="html/03-forces-simulation.html" />
         <navPoint id="navPoint-22" playOrder="22">
