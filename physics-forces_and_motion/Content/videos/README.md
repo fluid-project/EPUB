@@ -1,9 +1,11 @@
 Inclusive EPUB 3 Exemplar Videos
 ================================
 
-
-1. Go to [this shared Google drive folder](https://drive.google.com/folderview?id=0BxzmBMhbP3nGTXJENVZOcl9pS0E&usp=sharing)
-2. Save the 4 videos (two .webm and two .MP4 videos) into the ./videos/ directory.
+Down the following four videos into the ./videos/ directory:
+- https://idrc.cachefly.net/floeproject.org/videos/Free_Body_Diagrams.mp4
+- https://idrc.cachefly.net/floeproject.org/videos/Free_Body_Diagrams.webm
+- https://idrc.cachefly.net/floeproject.org/videos/Relative_Velocity.mp4
+- https://idrc.cachefly.net/floeproject.org/videos/Relative_Velocity.webm
 
 Videos Original Source
 ----------------------
