@@ -1,7 +1,7 @@
 Inclusive EPUB 3 Exemplar Videos
 ================================
 
-Down the following four videos into the ./videos/ directory:
+Download the following four videos into the ./videos/ directory:
 - https://idrc.cachefly.net/floeproject.org/videos/Free_Body_Diagrams.mp4
 - https://idrc.cachefly.net/floeproject.org/videos/Free_Body_Diagrams.webm
 - https://idrc.cachefly.net/floeproject.org/videos/Relative_Velocity.mp4
