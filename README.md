@@ -29,9 +29,14 @@ Each book is a root directory labelled by its title. Within each book directory 
 
 ### 1 EPUB Exemplar Content
 
-1. Use git to get a copy of the EPUB repository: https://github.com/jhung/EPUB (TODO: Replace repository URL)
+1. Use git to get a copy of the EPUB repository: https://github.com/fluid-project/EPUB
 2. Change directory into EPUB directory.
-3. Save the videos from [this shared Google drive folder](https://drive.google.com/folderview?id=0BxzmBMhbP3nGTXJENVZOcl9pS0E&usp=sharing) into the ./videos/ directory.
+3. Save the videos from the following links into the ./videos/ directory.
+    - https://idrc.cachefly.net/floeproject.org/videos/Free_Body_Diagrams.mp4
+    - https://idrc.cachefly.net/floeproject.org/videos/Free_Body_Diagrams.webm
+    - https://idrc.cachefly.net/floeproject.org/videos/Relative_Velocity.mp4
+    - https://idrc.cachefly.net/floeproject.org/videos/Relative_Velocity.webm
+
 
 ### 2 Testing Tools
 
