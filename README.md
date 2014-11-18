@@ -64,7 +64,7 @@ For example, to use the `zip` command on the command line to create an archive c
 
 ## Helpful Resources
 
-- Todo: A link to Inclusive EPUB 3 ILDH Guide
+- [Inclusive EPUB 3 - Inclusive Learning Design Handbook](http://handbook.floeproject.org/index.php?title=Inclusive_EPUB_3)
 - [EPUB Samples Project](https://code.google.com/p/epub-samples/)
 - [IDPF EPUB Validator](http://validator.idpf.org/)
 - [IDPF command-line EPUB validator](https://github.com/IDPF/epubcheck)
