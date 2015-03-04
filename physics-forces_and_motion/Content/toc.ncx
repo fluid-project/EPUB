@@ -29,23 +29,23 @@
         </navLabel>
         <content src="html/01-velocity.html#c01h02" />
       </navPoint>
-      <navPoint id="navPoint-3" playOrder="3">
+      <navPoint id="navPoint-5" playOrder="3">
+        <navLabel>
+          <text>Watch this Explanation</text>
+        </navLabel>
+        <content src="html/01-velocity.html#c01h05" />
+      </navPoint>
+      <navPoint id="navPoint-3" playOrder="4">
         <navLabel>
           <text>Guidance</text>
         </navLabel>
         <content src="html/01-velocity.html#c01h03" />
       </navPoint>
-      <navPoint id="navPoint-4" playOrder="4">
+      <navPoint id="navPoint-4" playOrder="5">
         <navLabel>
           <text>Example 1</text>
         </navLabel>
         <content src="html/01-velocity.html#c01h04" />
-      </navPoint>
-      <navPoint id="navPoint-5" playOrder="5">
-        <navLabel>
-          <text>Watch this Explanation</text>
-        </navLabel>
-        <content src="html/01-velocity.html#c01h05" />
       </navPoint>
       <navPoint id="navPoint-6" playOrder="6">
         <navLabel>
@@ -89,53 +89,53 @@
         </navLabel>
         <content src="html/02-types_of_forces.html#c02h02" />
       </navPoint>
-      <navPoint id="navPoint-13" playOrder="13">
+      <navPoint id="navPoint-20" playOrder="13">
+        <navLabel>
+          <text>Watch this Explanation</text>
+        </navLabel>
+        <content src="html/02-types_of_forces.html#watch-this-explanation" />
+      </navPoint>
+      <navPoint id="navPoint-13" playOrder="14">
         <navLabel>
           <text>Guidance</text>
         </navLabel>
         <content src="html/02-types_of_forces.html#c02h03" />
-        <navPoint id="navPoint-14" playOrder="14">
+        <navPoint id="navPoint-14" playOrder="15">
           <navLabel>
             <text>Normal Force</text>
           </navLabel>
           <content src="html/02-types_of_forces.html#c02h04" />
         </navPoint>
-        <navPoint id="navPoint-15" playOrder="15">
+        <navPoint id="navPoint-15" playOrder="16">
           <navLabel>
             <text>Tension</text>
           </navLabel>
           <content src="html/02-types_of_forces.html#c02h05" />
         </navPoint>
-        <navPoint id="navPoint-16" playOrder="16">
+        <navPoint id="navPoint-16" playOrder="17">
           <navLabel>
             <text>Friction</text>
           </navLabel>
           <content src="html/02-types_of_forces.html#c02h-6" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint-17" playOrder="17">
+      <navPoint id="navPoint-17" playOrder="18">
         <navLabel>
           <text>Spring Force</text>
         </navLabel>
         <content src="html/02-types_of_forces.html#c02h07" />
       </navPoint>
-      <navPoint id="navPoint-18" playOrder="18">
+      <navPoint id="navPoint-18" playOrder="19">
         <navLabel>
           <text>Example 1</text>
         </navLabel>
         <content src="html/02-types_of_forces.html#c02h08" />
       </navPoint>
-      <navPoint id="navPoint-19" playOrder="19">
+      <navPoint id="navPoint-19" playOrder="20">
         <navLabel>
           <text>Example 2</text>
         </navLabel>
         <content src="html/02-types_of_forces.html#c02h09" />
-      </navPoint>
-      <navPoint id="navPoint-20" playOrder="20">
-        <navLabel>
-          <text>Watch this Explanation</text>
-        </navLabel>
-        <content src="html/02-types_of_forces.html#watch-this-explanation" />
       </navPoint>
     </navPoint>
     <navPoint id="navPoint-21" playOrder="21">

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <body>
+        <div>
+            <span role="math" aria-label="F subscript g equals m times g" aria-describedby="c02-equation-1">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mrow>
+                        <msub>
+                            <mi>F</mi>
+                            <mi>g</mi>
+                        </msub>
+                        <mo>=</mo>
+                        <mi>m</mi>
+                        <mi>g</mi>
+                    </mrow>
+                </math>
+            </span>
+            <span id="c02-equation-1"> Force of gravity equals mass of the object times gravitational acceleration. </span>
+        </div>
+        
+        <h2>NVDA aria-label tests</h2>
+        <div>
+            <h3>Role = "math" - fails</h3>    
+            <div role="math" aria-label="F subscript g equals m times g">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mrow>
+                        <msub>
+                            <mi>F</mi>
+                            <mi>g</mi>
+                        </msub>
+                        <mo>=</mo>
+                        <mi>m</mi>
+                        <mi>g</mi>
+                    </mrow>
+                </math>
+            </div>
+        </div>
+
+        <div>
+            <h3>Role = "math", Aria-labelledby</h3>    
+            <span role="math" aria-labelledby="test_label" aria-readonly="true" aria-describedby="c02-equation-1">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mrow>
+                        <msub>
+                            <mi>F</mi>
+                            <mi>g</mi>
+                        </msub>
+                        <mo>=</mo>
+                        <mi>m</mi>
+                        <mi>g</mi>
+                    </mrow>
+                </math>
+            </span>
+            <span style="left: -200em; position: absolute; top:-20em;" id="test_label">NVDA will read this label</span>
+        </div>
+
+        <div>
+            <h3>role = "textbox" - passes</h2>
+            <span role="textbox" aria-label="NVDA will read this label" aria-readonly="true" aria-describedby="c02-equation-1">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mrow>
+                        <msub>
+                            <mi>F</mi>
+                            <mi>g</mi>
+                        </msub>
+                        <mo>=</mo>
+                        <mi>m</mi>
+                        <mi>g</mi>
+                    </mrow>
+                </math>
+            </span>
+        </div>
+
+        <div>
+            <h3>role = "math" and labelledby</h2>
+            <span role="textbox" aria-label="F subscript g equals m times g" aria-describedby="c02-equation-1">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mrow>
+                        <msub>
+                            <mi>F</mi>
+                            <mi>g</mi>
+                        </msub>
+                        <mo>=</mo>
+                        <mi>m</mi>
+                        <mi>g</mi>
+                    </mrow>
+                </math>
+            </span>
+            NVDA: Reads aria-label.
+        </div>        
+        
+        <div>
+            The following test case is for the overscript. A voice over bug was calling the arrow as underneath and not above.  
+        </div>
+        
+        <div>
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                
+                <mover>
+                    <mrow>
+                    <mi>F</mi>
+                    </mrow>
+                    <mo>&#8594;</mo>
+                </mover>
+        
+            </math>
+        </div>
+        
+        <div id="c02p0007" role="math" aria-label="f subscript s is less-than or equal to the product of mu subscript s and the absolute value of F subscript n." aria-describedby="c02p0008">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mrow>
+                    <msub>
+                        <mi>f</mi>
+                        <mi>s</mi>
+                    </msub>
+                    <mo>≤</mo>
+                    <msub>
+                        <mi>&micro;</mi>
+                        <mi>s</mi>
+                    </msub>
+                    <mo>|</mo>
+                    <msub>
+                        <mrow>
+                            <mover>
+                                <mi>F</mi>
+                                <mo>&#8594;</mo>
+                            </mover>
+                        </mrow>
+                        <mi>N</mi>
+                    </msub>
+                    <mo>|</mo>
+                </mrow>
+            </math>
+        </div>
+
+
+    </body>
+</html>

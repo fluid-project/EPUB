@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Script Test</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    </head>
+    
+    <body>
+        <p>
+            The <span id="code">secret code</span><span id="secret">D E A D M A N</span> had to be
+            spelled out to gain passage to the pirates' lair.
+        </p>
+        <div id="revealed" aria-live="assertive"></div>
+        <style type="text/css">
+            span#secret {
+                color: rgb(255,0,0);
+            }
+            div#revealed {
+                width: 100%;
+                text-align: center;
+            }
+            span.letter {
+                font-family: "Times New Roman";
+                font-size: 240%;
+                font-weight: bold;
+                color: rgb(255,0,0);
+                text-shadow: rgb(0,0,0) 1px 1px 2px;
+                animation: bleedin 2s;
+            }
+            @keyframes bleedin {
+            from {
+                font-weight: normal;
+                font-size: 0%;
+                background: rgb(255,0,0);
+                text-shadow: rgb(0,0,0) 1px 1px 50px;
+            }
+            to {
+                font-weight: bold;
+                font-size: 240%;
+                background: rgb(255,255,255);
+                text-shadow: rgb(0,0,0) 1px 1px 2px;
+            }
+            }
+        </style>
+        <script type="text/javascript">
+            <![CDATA[
+            var code = document.getElementById('code');
+            code.style.color = 'rgb(0,0,200)';
+            code.onclick = function() {
+                revealCode();
+            };
+            code.setAttribute('role', 'button');
+            code.setAttribute('tabindex', 0);
+            var secret = document.getElementById('secret');
+            secret.style.visibility = 'hidden';
+            secret.style.display = 'none';
+            secret.setAttribute('aria-hidden', true);
+            function revealCode() {
+                var revealed = document.getElementById('revealed');
+                if (revealed.childNodes.length == 0) {
+                    var codeArray = 'DEADMAN'.split('');
+                    var i = 0;
+                    var revealLetters = setInterval(function() {
+                        if (i < codeArray.length) {
+                            var letter = document.createElement('span');
+                            letter.setAttribute('class', 'letter');
+                            letter.appendChild(document.createTextNode(codeArray[i]));
+                            revealed.appendChild(letter);
+                            i++;
+                        } else {
+                            clearInterval(revealLetters);
+                        }
+                    }, 300);
+                }
+            }
+
+            ]]>
+        </script>
+        
+    </body>
+
+</html>
