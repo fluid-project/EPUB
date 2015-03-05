@@ -22,59 +22,59 @@
       <navLabel>
         <text>Chapter 1 - Velocity</text>
       </navLabel>
-      <content src="html/01-velocity.html" />
+      <content src="html/01-velocity.xhtml" />
       <navPoint id="navPoint-2" playOrder="2">
         <navLabel>
           <text>Key Equations</text>
         </navLabel>
-        <content src="html/01-velocity.html#c01h02" />
+        <content src="html/01-velocity.xhtml#c01h02" />
       </navPoint>
       <navPoint id="navPoint-5" playOrder="3">
         <navLabel>
           <text>Watch this Explanation</text>
         </navLabel>
-        <content src="html/01-velocity.html#c01h05" />
+        <content src="html/01-velocity.xhtml#c01h05" />
       </navPoint>
       <navPoint id="navPoint-3" playOrder="4">
         <navLabel>
           <text>Guidance</text>
         </navLabel>
-        <content src="html/01-velocity.html#c01h03" />
+        <content src="html/01-velocity.xhtml#c01h03" />
       </navPoint>
       <navPoint id="navPoint-4" playOrder="5">
         <navLabel>
           <text>Example 1</text>
         </navLabel>
-        <content src="html/01-velocity.html#c01h04" />
+        <content src="html/01-velocity.xhtml#c01h04" />
       </navPoint>
       <navPoint id="navPoint-6" playOrder="6">
         <navLabel>
           <text>Time for Practice</text>
         </navLabel>
-        <content src="html/01-velocity.html#c01h07" />
+        <content src="html/01-velocity.xhtml#c01h07" />
         <navPoint id="navPoint-7" playOrder="7">
           <navLabel>
             <text>Question 1</text>
           </navLabel>
-          <content src="html/01-velocity.html#question-1" />
+          <content src="html/01-velocity.xhtml#question-1" />
         </navPoint>
         <navPoint id="navPoint-8" playOrder="8">
           <navLabel>
             <text>Question 2</text>
           </navLabel>
-          <content src="html/01-velocity.html#question-2" />
+          <content src="html/01-velocity.xhtml#question-2" />
         </navPoint>
         <navPoint id="navPoint-9" playOrder="9">
           <navLabel>
             <text>Question 3</text>
           </navLabel>
-          <content src="html/01-velocity.html#question-3" />
+          <content src="html/01-velocity.xhtml#question-3" />
         </navPoint>
         <navPoint id="navPoint-10" playOrder="10">
           <navLabel>
             <text>Question 4</text>
           </navLabel>
-          <content src="html/01-velocity.html#question-4" />
+          <content src="html/01-velocity.xhtml#question-4" />
         </navPoint>
       </navPoint>
     </navPoint>
@@ -82,84 +82,84 @@
       <navLabel>
         <text>Chapter 2 - Types of Forces</text>
       </navLabel>
-      <content src="html/02-types_of_forces.html" />
+      <content src="html/02-types_of_forces.xhtml" />
       <navPoint id="navPoint-12" playOrder="12">
         <navLabel>
           <text>Key Equations</text>
         </navLabel>
-        <content src="html/02-types_of_forces.html#c02h02" />
+        <content src="html/02-types_of_forces.xhtml#c02h02" />
       </navPoint>
       <navPoint id="navPoint-20" playOrder="13">
         <navLabel>
           <text>Watch this Explanation</text>
         </navLabel>
-        <content src="html/02-types_of_forces.html#watch-this-explanation" />
+        <content src="html/02-types_of_forces.xhtml#watch-this-explanation" />
       </navPoint>
       <navPoint id="navPoint-13" playOrder="14">
         <navLabel>
           <text>Guidance</text>
         </navLabel>
-        <content src="html/02-types_of_forces.html#c02h03" />
+        <content src="html/02-types_of_forces.xhtml#c02h03" />
         <navPoint id="navPoint-14" playOrder="15">
           <navLabel>
             <text>Normal Force</text>
           </navLabel>
-          <content src="html/02-types_of_forces.html#c02h04" />
+          <content src="html/02-types_of_forces.xhtml#c02h04" />
         </navPoint>
         <navPoint id="navPoint-15" playOrder="16">
           <navLabel>
             <text>Tension</text>
           </navLabel>
-          <content src="html/02-types_of_forces.html#c02h05" />
+          <content src="html/02-types_of_forces.xhtml#c02h05" />
         </navPoint>
         <navPoint id="navPoint-16" playOrder="17">
           <navLabel>
             <text>Friction</text>
           </navLabel>
-          <content src="html/02-types_of_forces.html#c02h-6" />
+          <content src="html/02-types_of_forces.xhtml#c02h-6" />
         </navPoint>
       </navPoint>
       <navPoint id="navPoint-17" playOrder="18">
         <navLabel>
           <text>Spring Force</text>
         </navLabel>
-        <content src="html/02-types_of_forces.html#c02h07" />
+        <content src="html/02-types_of_forces.xhtml#c02h07" />
       </navPoint>
       <navPoint id="navPoint-18" playOrder="19">
         <navLabel>
           <text>Example 1</text>
         </navLabel>
-        <content src="html/02-types_of_forces.html#c02h08" />
+        <content src="html/02-types_of_forces.xhtml#c02h08" />
       </navPoint>
       <navPoint id="navPoint-19" playOrder="20">
         <navLabel>
           <text>Example 2</text>
         </navLabel>
-        <content src="html/02-types_of_forces.html#c02h09" />
+        <content src="html/02-types_of_forces.xhtml#c02h09" />
       </navPoint>
     </navPoint>
     <navPoint id="navPoint-21" playOrder="21">
       <navLabel>
         <text>Chapter 3 - Adding Forces</text>
       </navLabel>
-      <content src="html/03-forces-simulation.html" />
+      <content src="html/03-forces-simulation.xhtml" />
         <navPoint id="navPoint-22" playOrder="22">
           <navLabel>
             <text>Example</text>
           </navLabel>
-          <content src="html/03-forces-simulation.html#c03h02" />
+          <content src="html/03-forces-simulation.xhtml#c03h02" />
         </navPoint>
         <navPoint id="navPoint-23" playOrder="23">
           <navLabel>
             <text>Tug-of-War Interactive Game</text>
           </navLabel>
-          <content src="html/03-forces-simulation.html#c03h03" />
+          <content src="html/03-forces-simulation.xhtml#c03h03" />
         </navPoint>
         <navPoint id="navPoint-24" playOrder="24">
           <navLabel>
             <text>Tug-of-War Interactive Game</text>
           </navLabel>
-          <content src="html/03-forces-simulation-2.html" />
+          <content src="html/03-forces-simulation-2.xhtml" />
         </navPoint>
     </navPoint>
   </navMap>
