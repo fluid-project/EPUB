@@ -44,6 +44,7 @@
     <item id="file4_jpg" href="images/elevator.jpg" media-type="image/jpeg" />
     <item id="file5_mp4" href="videos/Relative_Velocity.mp4" media-type="video/mp4" />
     <item id="file6_webm" href="videos/Relative_Velocity.webm" media-type="video/webm" />
+    <item id="cap1_vtt" href="videos/Relative_Velocity_en.vtt" media-type="text/vtt"/>
     <item id="ch001_overlay" href="audio/01-velocity.smil" media-type="application/smil+xml"/>
     <item id="ch001_overlay_mp3" href="audio/01-velocity.mp3" media-type="audio/mpeg" />
   </manifest>
