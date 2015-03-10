@@ -159,7 +159,7 @@
           <navLabel>
             <text>Tug-of-War Interactive Game</text>
           </navLabel>
-          <content src="html/03-forces-simulation-2.html" />
+          <content src="html/03-forces-simulation-2.xhtml" />
         </navPoint>
     </navPoint>
   </navMap>
